@@ -6,7 +6,7 @@ Soundstorm is a cutting-edge audio and AI application designed to provide a rich
 
 ### Features
 
-- 🎵 ****AI Text-to-Audio Generation**: Generate any song or sound you want by a simple text prompt.
+- 🎵 **AI Text-to-Audio Generation**: Generate any song or sound you want by a simple text prompt.
 - 📦 **Algorithmic Sample Pack Creation**: Automatically generate sample packs based on user-defined criteria.
 - 🎛 **Audio Effects**: Real-time audio effects like reverb, distortion, and more.
 - 🎶 **Algorithmic Composition**: Create music through AI-driven algorithmic composition.
