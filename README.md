@@ -6,13 +6,22 @@ Soundstorm is a cutting-edge audio and AI application designed to provide a rich
 
 ### Features
 
-- 🎵 **Audio Playback**: Play back your favorite audio tracks with support for multiple formats.
+- 🎵 ****AI Text-to-Audio Generation**: Generate any song or sound you want by a simple text prompt.
+- 📦 **Algorithmic Sample Pack Creation**: Automatically generate sample packs based on user-defined criteria.
 - 🎛 **Audio Effects**: Real-time audio effects like reverb, distortion, and more.
-- 📦 **Sample Pack Creation**: Automatically generate sample packs based on user-defined criteria.
 - 🎶 **Algorithmic Composition**: Create music through AI-driven algorithmic composition.
 - 🎹 **MIDI Randomizer**: Generate random MIDI sequences for creative inspiration.
 - 🗨️ **Chat with GPT**: Integrated chat using OpenAI's GPT models for real-time conversational experiences.
 - 🎲 **GPT Randomizer**: Generate random text snippets, prompts, or even song lyrics.
+
+
+1. **AI Text-to-Audio Generation**: Generate any song or sound you want by a simple text prompt.
+2. **Algorithmic Sample Pack Creation**: Use this feature to automatically generate sample packs.
+3. **Algorithmic Composition**: Navigate to the composition section and start creating music algorithmically.
+4. **MIDI Randomizer**: Use this feature to generate random MIDI sequences.
+5. **Audio Effects**: Select an effect from the dropdown list to apply to the audio in real-time.
+6. **Chat with GPT**: Navigate to the chat section and start a conversation with the integrated GPT model.
+7. **GPT Randomizer**: Use this feature to generate random text snippets, prompts, or lyrics.
 
 ## Installation
 
@@ -46,15 +55,6 @@ After installing the prerequisites and obtaining the API keys, you can run the a
 python Soundstorm.py
 ```
 
-## Usage
-
-1. **AI Text-to-Audio Generation**: Generate any song or sound you want by a simple text prompt.
-2. **Algorithmic Sample Pack Creation**: Use this feature to automatically generate sample packs.
-3. **Algorithmic Composition**: Navigate to the composition section and start creating music algorithmically.
-4. **MIDI Randomizer**: Use this feature to generate random MIDI sequences.
-5. **Audio Effects**: Select an effect from the dropdown list to apply to the audio in real-time.
-6. **Chat with GPT**: Navigate to the chat section and start a conversation with the integrated GPT model.
-7. **GPT Randomizer**: Use this feature to generate random text snippets, prompts, or lyrics.
 
 ## Contributing
 
