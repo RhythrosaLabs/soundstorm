@@ -47,17 +47,19 @@ python Soundstorm.py
 ```
 
 
+
 ## Contributing
 
 Contributions are welcome! This is the work of an amateur. Would love to see it fleshed out!
 
-[![Support via PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/noodlebake)
+## Support
 
+For support and feature requests, please open an issue on this repository.
+
+[![Support via PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/noodlebake)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Support
 
-For support and feature requests, please open an issue on this repository.
