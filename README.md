@@ -9,7 +9,7 @@ Soundstorm is a cutting-edge audio and AI Python application designed to provide
 - 🎵 **AI Text-to-Audio Generation**: Generate any song or sound you want by a simple text prompt.
 - 📦 **Algorithmic Sample Pack Creation**: Automatically generate sample packs based on user-defined criteria.
 - 🎛 **Audio Effects**: Real-time audio effects like reverb, distortion, and more.
-- 🎶 **Algorithmic Composition**: Create music through AI-driven algorithmic composition.
+- 🎶 **Algorithmic Composition**: Create algorithmic composition.
 - 🎹 **MIDI Randomizer**: Generate random MIDI sequences for creative inspiration.
 - 🗨️ **Chat with GPT**: Integrated chat using OpenAI's GPT models for real-time conversational experiences.
 - 🎲 **GPT Randomizer**: Generate random text snippets, prompts, or even song lyrics.
