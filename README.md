@@ -35,8 +35,8 @@ pip install pedalboard pydub replicate midiutil soundfile openai numpy
 
 You'll need to have API keys for both Replicate and OpenAI:
 
-- For Replicate, sign up [here](https://replicate.ai/login) and follow the instructions to get your API key.
-- For OpenAI, sign up [here](https://beta.openai.com/signup/) and follow the instructions to get your API key.
+- For Replicate, sign up at: https://replicate.com and follow the instructions to get your API key.
+- For OpenAI, sign up at: https://openai.com/product and follow the instructions to get your API key.
 
 Add these keys in the appropriate sections within the application before running it.
 
