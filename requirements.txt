@@ -1,0 +1,11 @@
+pydub
+tk
+pedalboard
+pydub
+replicate
+midiutil
+soundfile
+openai
+numpy
+pygame
+
