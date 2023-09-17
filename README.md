@@ -21,8 +21,7 @@ Please note: this is currently a prototype with a super stripped-down GUI and, w
 
 ### Prerequisites
 
-- Python 3.x
-- Pip (Python Package Installer)
+- Python 3.11
 
 ### Install Dependencies
 
