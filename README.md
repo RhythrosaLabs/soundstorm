@@ -2,7 +2,7 @@
 
 ## Overview
 
-Soundstorm is a cutting-edge audio and AI Python application designed to provide a rich yet simplified experience for sound designers, algorithmic composers, and experimental audio enthusiasts. From sample pack creation and algorithmic composition to AI-powered chat features, Soundstorm is a sonic powerhouse.
+Soundstorm is a cutting-edge audio and AI Python application designed to provide a rich yet simplified experience for sound designers, algorithmic composers, and experimental audio enthusiasts. From sample pack creation and algorithmic composition to AI-powered chat features, Soundstorm is a sonic powerhouse. 
 
 ### Features
 
@@ -13,6 +13,9 @@ Soundstorm is a cutting-edge audio and AI Python application designed to provide
 - 🎹 **MIDI Randomizer**: Generate random MIDI sequences for creative inspiration.
 - 🗨️ **Chat with GPT**: Integrated chat using OpenAI's GPT models for real-time conversational experiences.
 - 🎲 **GPT Randomizer**: Generate random text snippets, prompts, or even song lyrics.
+
+
+Please note: this is currently a prototype with a super stripped-down GUI and, while functional, can be buggy and does require finagling.
 
 ## Installation
 
