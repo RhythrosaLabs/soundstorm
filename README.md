@@ -15,8 +15,6 @@ Soundstorm is a cutting-edge audio and AI Python application designed to provide
 - 🎲 **GPT Randomizer**: Generate random text snippets, prompts, or even song lyrics.
 
 
-Please note: this is currently a prototype with a super stripped-down GUI and, while functional, can be buggy and does require finagling.
-
 ## Installation
 
 ### Prerequisites
@@ -51,6 +49,7 @@ python Soundstorm.py
 ### Important
 
 This is SUPER rough. Currently, it only exists as a Python script and has only been tested on 2 different Macs.
+It is more or less a working prototype with a super stripped-down GUI. It can be buggy and does require finagling. Also things definitely need to be cleaned up, labeled better, etc etc. I could use assistance with this!
 
 ## Contributing
 
