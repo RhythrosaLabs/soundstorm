@@ -48,7 +48,9 @@ After installing the prerequisites and obtaining the API keys, you can run the a
 python Soundstorm.py
 ```
 
+### Important
 
+This is SUPER rough. Currently, it only exists as a Python script and has only been tested on 2 different Macs.
 
 ## Contributing
 
