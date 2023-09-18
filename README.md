@@ -2,7 +2,7 @@
 
 ## Overview
 
-Soundstorm is a cutting-edge AI-powered audio manipulation application designed to provide a rich yet simplified experience for sound designers, algorithmic composers, and experimental audio enthusiasts. From sample pack creation and algorithmic composition to AI-powered chat features, Soundstorm is a sonic powerhouse. 
+Soundstorm is a cutting-edge AI-powered audio manipulation application designed to provide a rich yet simplified experience for sound designers, algorithmic composers, and experimental audio enthusiasts. From sample pack creation and algorithmic composition to AI text-to-audio and onscreen ChatGPT, Soundstorm is a sonic powerhouse.
 
 ### Features
 
