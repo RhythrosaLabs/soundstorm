@@ -26,7 +26,7 @@ Soundstorm is a cutting-edge AI-powered audio manipulation application designed 
 Clone the repository and navigate into the project directory. Run the following command to install all the necessary packages:
 
 ```bash
-pip install pedalboard pydub replicate midiutil soundfile openai numpy
+pip install pedalboard pydub replicate midiutil soundfile openai numpy pygame
 ```
 
 ### API Keys
