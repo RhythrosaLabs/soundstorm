@@ -1,3 +1,5 @@
+![Soundstorm Logo](soundstorm-logo.png)
+
 # Soundstorm: A Comprehensive Audio & AI Experience
 
 ## Overview
@@ -13,7 +15,6 @@ Soundstorm is a cutting-edge AI-powered audio manipulation application designed 
 - 🎹 **MIDI Randomizer**: Generate random MIDI sequences for creative inspiration.
 - 🗨️ **Chat with GPT**: Integrated chat using OpenAI's GPT models for real-time conversational experiences.
 - 🎲 **GPT Randomizer**: Generate random text snippets, prompts, or even song lyrics.
-
 
 ## Installation
 
@@ -48,8 +49,7 @@ python Soundstorm.py
 
 ### Important
 
-This is SUPER rough. Currently, it only exists as a Python script and has only been tested on 2 different Macs.
-It is more or less a working prototype with a super stripped-down GUI. It can be buggy and does require finagling. Also things definitely need to be cleaned up, labeled better, etc etc. I could use assistance with this!
+This is SUPER rough. Currently, it only exists as a Python script and has only been tested on 2 different Macs. It is more or less a working prototype with a super stripped-down GUI. It can be buggy and does require finagling. Also things definitely need to be cleaned up, labeled better, etc etc. I could use assistance with this!
 
 ## Contributing
 
@@ -64,5 +64,6 @@ For support and feature requests, please open an issue on this repository.
 ## License
 
 This project is licensed under the MIT License.
+```
 
-
+Replace `soundstorm-logo.png` with the path to your logo if it is hosted elsewhere. If you're adding an absolute URL instead of a relative path within a repo, it would look something like `![Soundstorm Logo](https://example.com/path/to/soundstorm-logo.png)`. Remember to replace the URL with the actual URL where your logo image is hosted.
