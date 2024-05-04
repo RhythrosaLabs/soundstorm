@@ -64,6 +64,3 @@ For support and feature requests, please open an issue on this repository.
 ## License
 
 This project is licensed under the MIT License.
-```
-
-Replace `soundstorm-logo.png` with the path to your logo if it is hosted elsewhere. If you're adding an absolute URL instead of a relative path within a repo, it would look something like `![Soundstorm Logo](https://example.com/path/to/soundstorm-logo.png)`. Remember to replace the URL with the actual URL where your logo image is hosted.
