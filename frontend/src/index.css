@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body {
+  margin: 0;
+  background: #050508;
+  color: #f1f5f9;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(139,92,246,0.35); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(139,92,246,0.55); }
+
+/* Glass card */
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Waveform animation */
+@keyframes waveBar {
+  0%, 100% { transform: scaleY(0.3); }
+  50%       { transform: scaleY(1); }
+}
+.wave-bar { animation: waveBar 1.2s ease-in-out infinite; transform-origin: bottom; }
+.wave-bar:nth-child(2)  { animation-delay: 0.08s; }
+.wave-bar:nth-child(3)  { animation-delay: 0.16s; }
+.wave-bar:nth-child(4)  { animation-delay: 0.24s; }
+.wave-bar:nth-child(5)  { animation-delay: 0.32s; }
+.wave-bar:nth-child(6)  { animation-delay: 0.16s; }
+.wave-bar:nth-child(7)  { animation-delay: 0.08s; }
+.wave-bar:nth-child(8)  { animation-delay: 0.00s; }
+.wave-bar:nth-child(9)  { animation-delay: 0.12s; }
+.wave-bar:nth-child(10) { animation-delay: 0.20s; }
+
+/* Range inputs */
+input[type='range'] {
+  -webkit-appearance: none;
+  height: 4px;
+  border-radius: 2px;
+  outline: none;
+  background: rgba(255,255,255,0.1);
+  cursor: pointer;
+}
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #8b5cf6;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(139,92,246,0.5);
+}
+
+/* Textarea auto-resize feel */
+textarea { overflow: hidden; }

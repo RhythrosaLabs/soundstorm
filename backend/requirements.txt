@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydub
+pedalboard
+replicate
+midiutil
+openai
+numpy
+requests
+python-multipart

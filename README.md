@@ -1,70 +1,76 @@
 <div align="center">
 
-# 🌩️ SoundStorm
+# ⚡ SoundStorm v2
 
-**The all-in-one AI audio studio — generate, sculpt, compose, and chat your music into existence**
+**The AI audio studio — now as a gorgeous web app**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Replicate](https://img.shields.io/badge/Replicate-000000?style=flat)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
 </div>
 
 ---
 
-SoundStorm is a powerful Python audio studio that puts AI at the center of your music workflow. Generate audio from text, apply pro-grade effects, build sample packs, compose algorithmic beats, randomize MIDI, and chat with GPT-4 — all from one unified interface.
+SoundStorm v2 is a full-stack web application that brings the power of AI audio generation, studio-grade effects, algorithmic composition, and GPT-4o chat into a sleek, modern browser interface.
 
 ## ✨ Features
 
-- **Text-to-Audio generation** — describe a sound and let AI create it via Replicate
-- **Sample pack creator** — batch-generate themed audio libraries
-- **Audio effects rack** — EQ, reverb, delay, compression via Pedalboard
-- **Algorithmic composition** — generate music procedurally
-- **MIDI randomizer** — create unpredictable MIDI patterns
-- **GPT-4 chat assistant** — ask questions, get music theory help, brainstorm sounds
-- **GPT randomizer** — let GPT drive the creative process
+| Module | Description |
+|---|---|
+| **AI Generator** | Text-to-audio via MusicGen & LoopTest on Replicate |
+| **Effects Rack** | Reverb, Chorus, Compressor, Distortion via Pedalboard |
+| **Sample Pack** | Batch algorithmic sound generation |
+| **Drum Machine** | Procedural percussion loops |
+| **MIDI Composer** | Chord progression → downloadable MIDI |
+| **AI Chat** | GPT-4o music production assistant |
 
 ## 🚀 Quick Start
 
+### With Docker Compose (recommended)
+
 ```bash
-git clone https://github.com/RhythrosaLabs/soundstorm.git
+git clone https://github.com/RhythrosaLabs/soundstorm
 cd soundstorm
+docker-compose up
+```
+
+Open `http://localhost:5173` and add your API keys in Settings.
+
+### Manual
+
+**Backend:**
+```bash
+cd backend
 pip install -r requirements.txt
-python main.py
+uvicorn main:app --reload --port 8000
 ```
 
-Add your OpenAI and Replicate API keys to a `.env` file:
-
+**Frontend:**
+```bash
+cd frontend
+npm install
+npm run dev
 ```
-OPENAI_API_KEY=your_key
-REPLICATE_API_TOKEN=your_token
-```
 
-## 🛠️ Tech Stack
+## 🔑 API Keys
 
-- **Python** — core language
-- **OpenAI / GPT-4** — chat and randomization
-- **Replicate** — AI audio generation
-- **Pedalboard** — audio effects (Spotify)
-- **pydub** — audio manipulation
-- **midiutil** — MIDI generation
-- **pygame** — audio playback
-- **soundfile** — file I/O
+| Key | Used For | Where to get |
+|---|---|---|
+| Replicate | AI audio generation | [replicate.com](https://replicate.com/account/api-tokens) |
+| OpenAI | Chat + prompt randomizer | [platform.openai.com](https://platform.openai.com/api-keys) |
 
-## 🤝 Contributing
+Keys are stored locally in your browser — never sent anywhere except the respective AI providers.
 
-PRs welcome. Open an issue first for major changes.
+## 🛠️ Stack
+
+- **Frontend:** React 18 + TypeScript + Vite + Tailwind CSS
+- **Backend:** FastAPI + Python
+- **Audio:** Pedalboard (Spotify) + pydub + midiutil
+- **AI:** Replicate (MusicGen) + OpenAI (GPT-4o)
 
 ## 📄 License
 
-MIT
-
-## 💛 Support
-
-If SoundStorm sparks your creativity, consider supporting development:
-
-👉 [Donate via PayPal](https://paypal.me/noodlebake) — @noodlebake
-
----
-<div align="center">Made with ❤️ by <a href="https://github.com/RhythrosaLabs">RhythrosaLabs</a></div>
+MIT — Made with ❤️ by [RhythrosaLabs](https://github.com/RhythrosaLabs)
