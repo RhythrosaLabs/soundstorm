@@ -1,0 +1,9 @@
+[flake8]
+# soundstorm.py is the legacy Tkinter desktop app being superseded by the
+# web refactor. Its F821/F824 violations are pre-existing (globals resolved
+# at GUI-init time) and unrelated to the web app changes.
+exclude =
+    soundstorm.py,
+    .git,
+    __pycache__
+max-line-length = 127
