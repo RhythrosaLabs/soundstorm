@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/soundstorm-logo.png" width="160" alt="SoundStorm logo">
+
 # 🌩️ SoundStorm
 
 **The all-in-one AI audio studio — generate, sculpt, compose, and chat your music into existence**
