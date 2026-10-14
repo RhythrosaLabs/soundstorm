@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/soundstorm-logo.png" width="160" alt="SoundStorm logo">
+<img src="https://github.com/RhythrosaLabs/soundstorm/raw/main/assets/soundstorm-logo.png" width="160" alt="SoundStorm logo">
 
 # 🌩️ SoundStorm
 
